@@ -330,3 +330,21 @@
   background: var(--primary);
   transform: skew(40deg);
 }
+/* Base style for the logo */
+.footer-logo {
+  max-width: 200px;
+  height: auto;
+}
+
+/* Responsive: scale down logo on smaller screens */
+@media (max-width: 768px) {
+  .footer-logo {
+    max-width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-logo {
+    max-width: 120px;
+  }
+}
