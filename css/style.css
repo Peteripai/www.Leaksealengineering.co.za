@@ -332,8 +332,8 @@
 }
 /* Base style for the logo */
 .footer-logo {
-  max-width: 200px;
-  height: auto;
+  max-width: 300px;
+  height: 100px;
 }
 
 /* Responsive: scale down logo on smaller screens */
